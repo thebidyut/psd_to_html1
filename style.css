@@ -1,0 +1,452 @@
+*{margin:0;padding:0;outline:0;}
+body{
+	font-family:Verdana Regular;
+	font-size:12px;
+	line-height:16px;
+	background: url(img/Looper2.png) repeat fixed;
+}
+.clear{overflow:hidden;}
+.templete{
+	width:1000px;
+	margin:0 auto;
+}
+a{color:#000;font-weight:bold;text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+p{margin-bottom:15px;}
+
+/* header Section Start Here */
+.headsection{height:60px;background:#EAF2F5;border-top: 5px solid #4d4e49;border-bottom: 1px solid #adbcbf;}
+.headleft{
+	float:left;
+	width: 668px;
+	font-family:georgia;
+	color:#4D4E49;
+}
+.headleft h2{
+	float:left;
+	font-size:36px;
+	padding: 10px 20px 10px 20px;
+	border-right: 1px dashed #4D4E49;
+	padding-right: 20px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.headleft p{
+	float:left;
+	font-size:16px;
+	margin: 22px 20px 22px 15px;
+}
+
+.headright{
+	float:right;
+	width: 332px;
+}
+.headright input[type="text"]{
+    width: 245px;
+    background: #D6E5E8;
+    border: 1px solid #a1bcc2;
+    height: 20px;
+    margin: 20px 0px 18px 20px;
+}
+.headright a input[type="submit"]{
+    width: 38px;
+    height: 22px;
+    background: #D6E5E8;
+    border: 1px solid #a1bcc2;
+    color: #666666;
+    margin: 20px 20px 18px 2px;
+	cursor: pointer;
+}
+.headright a input[type="submit"]:hover{
+	font-weight:bold;
+	color:#000;
+}
+/* Menu Section Start Here */
+.menusection{
+    background: #EAF2F5;
+    height: 45px;
+}
+.menuleft{
+    width: 700px;
+    float: left;
+}
+.menuleft ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menuleft ul li{
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-right: 1px solid #adbcbf;
+    margin: 5px 0px;
+}
+.menuleft ul li:last-child{border-right:0px;}
+.menuleft ul li a{
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    font-family: Georgia;
+    font-weight: normal;
+}
+.menuleft ul li a:hover{color: #FF9800;}
+
+.menuright{
+    width: 143px;
+    float: right;
+    margin: 5px 20px 5px 20px;
+}
+.menuright p{
+    color: #666666;
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 5px 0px 5px 0px;
+    line-height: 10px;
+}
+/* Banner Section start Here */
+.bannersection{
+    background: #049bac;
+    color: #fff;
+    border-top: 2px solid #116fa6;
+    border-bottom: 2px solid #116fa6;
+}
+.bannerleft{
+    float: left;
+    width: 469px;
+    margin: 40px 20px 40px 20px;
+}
+.bannerleft h2{
+    font-family: Georgia;
+    font-size: 36px;
+    line-height: 40px;
+    border-bottom: 1px solid #82cdd6;
+    padding-bottom: 15px;
+}
+.bannerleft p{
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: normal;
+}
+.bannerlink{
+}
+
+.leftlink{
+    float: left;
+    width: 153px;
+    background: #dedede;
+    font-size: 22px;
+    font-family: Georgia;
+    text-align: center;
+    padding: 10px 23px;
+	margin-right:60px;
+}
+.leftlink a{color: #333333;font-weight: normal;}
+.leftlink a:hover{color: #FF9800;}
+
+.rightlink{
+    float: left;
+    width: 153px;
+    background: #dedede;
+    font-size: 22px;
+    font-family: Georgia;
+    text-align: center;
+    padding: 10px 23px;
+}
+.rightlink a{color: #333333;font-weight: normal;}
+.rightlink a:hover{color: #FF9800;}
+
+.bannerright{
+    float: right;
+    width: 451px;
+    margin: 40px 20px 40px 20px;
+}
+.bannerright img{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #666;
+}
+/* Service Section */
+.servicesection{
+    background: #eaf2f4;
+    padding: 0px 20px;
+    border-bottom: 1px solid #ffffff;
+}
+.service{
+    float: left;
+    width: 238px;
+    margin: 30px 0px 30px 0px;
+    border: 1px solid #cdd8d8;
+}
+.service h2{
+    background: #f1f7f7;
+    border-bottom: 1px solid #cdd8d8;
+    color: #049bac;
+    font-family: Georgia;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+}
+.service h3{
+    font-family: Georgia;
+    font-size: 22px;
+    border-bottom: 1px solid #475c5f;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    color: #666666;
+}
+.service p{
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 10px;
+    color: #666666;
+}
+.service a{font-family: Verdana;font-size: 12px;float: right;margin: 10px 18px 20px 10px;}
+.service a:hover{color: #FF9800;}
+/* Content Section */
+.contentsection{
+    background: #eaf2f4;
+    padding: 30px 20px 40px 30px;
+}
+.contentleft{
+    float: left;
+    width: 400px;
+}
+.contentleft h2{
+    font-family: Georgia;
+    font-size: 22px;
+    line-height: 25px;
+    border-bottom: 1px solid #cdd8d8;
+    padding-bottom: 8px;
+}
+.contentleftdesc{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cdd8d8;
+}
+contentleftdesctwo{
+	margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.leftimage{
+    width: 92px;
+    float: left;
+    margin-right: 10px;
+}
+.leftimage img{
+    background: #eaf2f4;
+    padding: 5px;
+    border: 1px solid #013d61;
+}
+.lefttext{
+    float: right;
+    width: 298px;
+}
+.lefttext h4{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+}
+.lefttext p{
+    margin: 0;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}
+.lefttext a{
+    float: right;
+    font-family: verdana;
+    font-size: 12px;
+    padding: 10px;
+}
+.lefttext a:hover{color: #FF9800;}
+
+.contentright{
+    float: right;
+    width: 523px;
+}
+.contentright h2{
+	font-family: Georgia;
+    font-size: 22px;
+    line-height: 25px;
+    border-bottom: 1px solid #cdd8d8;
+    padding-bottom: 10px;
+}
+.imgdiv{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.imgdiv img{
+    background: #eaf2f4;
+    padding: 5px;
+    border: 1px solid #013d61;
+}
+.phpcontent{
+    margin-top: 20px;
+}
+.phpcontent h4{
+    font-family: Georgia;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.phpcontent p{
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+
+/* Footer Menu Start Here */
+.footertop{
+    background: #2c2c2d;
+    border-bottom: 2px solid #3d3d3d;
+    display: block;
+}
+.samefootone{
+    float: left;
+    width: 293px;
+    margin: 30px 20px 30px 20px;
+}
+.samefootone h2{
+    font-family: Georgia;
+    font-size: 22px;
+    color: #828284;
+    line-height: 30px;
+    border-bottom: 1px solid #98989a;
+    padding-bottom: 5px;
+}
+.samefootone p{
+    font-family: verdana;
+    font-size: 12px;
+    color: #98989a;
+    margin-top: 20px;
+}
+.samefootone input[type="text"]{
+    width: 245px;
+    height: 25px;
+    float: left;
+    background: #fff;
+    border: 1px solid #999;
+}
+.samefootone input[type="submit"]{
+    width: 40px;
+    height: 27px;
+    float: right;
+    border: 1px solid #999;
+    background: #fff;
+    color: #000000;
+	cursor:pointer;
+}
+.samefootone input[type="submit"]:hover{
+	font-weight:bold;
+	color:#000;
+}
+.footertoplink{}
+.footertoplink a{
+    color: #828284;
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 45px;
+    transition: .5s;
+}
+.samefootone a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.samefoottwo{
+    float: left;
+    width: 293px;
+    margin: 30px 20px 30px 20px;
+}
+.samefoottwo h2{
+    font-family: Georgia;
+    font-size: 22px;
+    color: #828284;
+    line-height: 30px;
+    border-bottom: 1px solid #98989a;
+    padding-bottom: 5px;
+}
+.samefoottwo ul{
+    margin-top: 20px;
+}
+.samefoottwo ul li{}
+.samefoottwo ul li a{
+    color: #049bac;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+	transition:.5s;
+}
+.samefoottwo ul li a:hover{
+	text-decoration:underline;
+	color:orange;
+}
+.samefootthree{
+    float: left;
+    width: 293px;
+    margin: 30px 20px 30px 20px;
+}
+.samefootthree h2{
+    font-family: Georgia;
+    font-size: 22px;
+    color: #828284;
+    line-height: 30px;
+    border-bottom: 1px solid #98989a;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.samefootthree p{
+    font-family: verdana;
+    font-size: 12px;
+    color: #98989a;
+    margin: 0px;
+    line-height: 22px;
+    font-weight: normal;
+}
+/* Footer Bottom Star Here */
+.footerbottom{
+    background: #252526;
+    border-bottom: 2px solid #303030;
+}
+.footleft{
+    float: left;
+}
+.footleft p{
+    color: #fff;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footright{
+    float: right;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.footright p{
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+}
